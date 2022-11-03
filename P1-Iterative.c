@@ -1,24 +1,3 @@
-//=================================================================
-// Copyright 2022 Georgia Tech.  All rights reserved.
-// The materials provided by the instructor in this course are for
-// the use of the students currently enrolled in the course.
-// Copyrighted course materials may not be further disseminated.
-// This file must not be made publicly available anywhere.
-//=================================================================
-
-/*     D i a m o n d   S e a r c h
-Student Name:
-Date:
-
-ECE 2035 Project 1-1
-
-This is the only file that should be modified for the C implementation
-of Project 1.
-
-Do not include any additional libraries.
-------------------------------------------
-This program finds the lowest cost 5-step path out of a diamond of weighted 
-squares. */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -39,10 +18,7 @@ int Array[121] = {
   10000, 10000, 10000, 10000,    45, -34, -85, 10000, 10000, 10000, 10000,
   10000, 10000, 10000, 10000, 10000,  59, 10000, 10000, 10000, 10000, 10000 };
 
-DO NOT use this to provide a test case to your program.
-Instead, provide the test case as a command-line argument in the form of
-a test file (e.g., test-307.txt).  The code below uses Load_Mem to read the
-values in a given test file into the local Array in main.
+
 */
 
 #define ArraySize 121
