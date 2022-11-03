@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define DEBUG 0 // RESET THIS TO 0 BEFORE SUBMITTING YOUR CODE
+#define DEBUG 0 
 
-/* Example from Project description (illustrated in Fig.1):
+/* 
 int Array[121] = {
   10000, 10000, 10000, 10000, 10000, -99,  10000, 10000, 10000, 10000, 10000,
   10000, 10000, 10000, 10000,   -49, -37,  83, 10000, 10000, 10000, 10000,
