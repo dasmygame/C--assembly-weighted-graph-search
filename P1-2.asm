@@ -1,42 +1,4 @@
-#=================================================================
-# Copyright 2022 Georgia Tech.  All rights reserved.
-# The materials provided by the instructor in this course are for
-# the use of the students currently enrolled in the course.
-# Copyrighted course materials may not be further disseminated.
-# This file must not be made publicly available anywhere.
-# =================================================================
-#     D i a m o n d   S e a r c h
-#
-# P1-2
-# Student Name: Rahul Das
-# Date: 10/24/22
-#
-# This program finds the shortest path out of a diamond of weighted squares.
-#
-#===========================================================================
-# CHANGE LOG: brief description of changes made from P1-2.asm
-# to this version of code.
-# Date  Modification
-# 09/22 Looping through squares from start to one of the corners
-# 09/23 Computing the total cost of a path from start to that corner 
-# 10/02 Started straight paths method, completed East path
-# 10/04 Created straight paths method for North, South, West
-# 10/09 Converting jumping straight paths to jal function from main
-# 10/10 found consistest paramters to change in main to reduce lines 
-#       for the straight paths.
-# 10/14 Created NE quadrant method that mirrors iterative C code 
-# 10/15 Converted NE quadrant method to jal from main with parameters
-# 10/17 Created NW quadrant method that mirrors iterative C code
-# 10/18 Aligned "horiz" and "vert" paramaters for NW and NE
-# 10/19 Removed all immediated values (addi) from array index incrementers
-# 10/19 Replaced all immediate values with "horiz" and "vert" paramaters
-# 10/20 Combined NW and NE functions into one Quad function with 
-#       unified parameters that are switch before each jal in main
-# 10/21 Changed parameters and called function on main for SW and SE
-# 10/22 Added a minPath check at the endQuad in order to check for the 
-#       minPath at the last index, which could contain potential minPath
-# 10/24 Deleted unneccessary jumps and unneeded registers to optimize
-#===========================================================================
+
 
 .data
 Array:	.alloc	121	# allocate static space for padded weight map
